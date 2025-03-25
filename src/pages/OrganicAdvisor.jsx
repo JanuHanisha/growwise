@@ -8,7 +8,12 @@ const OrganicAgriAdvisor = () => {
       alert("❌ Please select a crop to get organic farming advice.");
       return;
     }
-    alert(`Fetching organic and sustainable practices for ${selectedCrop}...`);
+    alert(`Fetching organic and sustainable practices for ${selectedCrop}...
+      1.Biofertilizers (e.g., phosphate-solubilizing bacteria): Use biofertilizers to enhance the availability of phosphorus in the soil for healthy pulse growth.
+      2.Crop rotation: Rotate pulses with other crops (e.g., wheat) to avoid soil depletion and break pest cycles.
+      3.Organic pest management: Use organic methods such as neem oil to prevent pest infestations
+      `
+    );
   };
 
   const crops = [

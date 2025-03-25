@@ -16,7 +16,7 @@ const SmartCropping = () => {
     // Simulate API call
     setTimeout(() => {
       setIsLoading(false);
-      alert(`🌱 Recommended crops for ${soilType} soil in ${locality}:\n\n• Crop A\n• Crop B\n• Crop C\n\nThese crops are well-suited for your area!`);
+      alert(`🌱 Recommended crops for ${soilType} soil in ${locality}:\n\n• Pulse\n• Tobacco\n• Cotton\n\nThese crops are well-suited for your area!`);
     }, 1500);
   };
 
